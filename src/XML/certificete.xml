@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit 1" >
+
+    <test name="assertCertificate">
+        <classes>
+            <class name="TestGruppen.TestAssertCertificate"></class>
+        </classes>
+    </test>
+
+</suite>
