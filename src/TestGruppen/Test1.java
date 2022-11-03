@@ -11,6 +11,5 @@ public class Test1 extends GenelWebDriver {
         System.out.println("check 1 ");
     }
 
-
     }
 
