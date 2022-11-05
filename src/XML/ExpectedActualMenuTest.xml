@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit 1" >
+
+    <test name="ValidateMenu">
+        <classes>
+            <class name="TestGruppen.ExpectedActualMenuTest"></class>
+        </classes>
+    </test>
+
+</suite>
