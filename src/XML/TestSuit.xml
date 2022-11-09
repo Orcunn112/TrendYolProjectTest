@@ -1,0 +1,35 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suit">
+    <test name="All Tests">
+
+        <classes>
+            <class name="TestGruppen.countryChangeVerifyTest">
+                <methods>
+                    <include name="countryChangeVerify"/>
+                </methods>
+            </class>
+            <class name="TestGruppen.ExpectedActualMenuTest">
+                <methods>
+                    <include name="menuValidation"/>
+                </methods>
+            </class>
+            <class name="TestGruppen.ShoppingFilterControlTest">
+                <methods>
+                    <include name="shoppingFilterControlTest"/>
+                </methods>
+            </class>
+            <class name="TestGruppen.Test1">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+            <class name="TestGruppen.TestAssertCertificate">
+                <methods>
+                    <include name="assertCertificate"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>
