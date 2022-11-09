@@ -12,6 +12,7 @@ import java.util.List;
 public class ExpectedActualMenuTest extends GenelWebDriver {
     @Test
     void menuValidation(){
+
         List<String> menuExpectedList=new ArrayList<>();
         menuExpectedList.add("KADIN");
         menuExpectedList.add("ERKEK");
