@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="commons-io-2.8.0">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../../Selenium/commons-io-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../TestTools/selenium-java-4.3.0/lib/commons-io-2.8.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
