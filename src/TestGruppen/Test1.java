@@ -23,7 +23,6 @@ public class Test1 extends GenelWebDriver {
 
         System.out.println("sayısı="+elements.counttheelements.size());
 
-
         actions.moveToElement(elements.Allimagines).build().perform();
 
         for (int i = 0; i <elements.counttheelements.size(); i++) {
@@ -36,8 +35,6 @@ public class Test1 extends GenelWebDriver {
 
         }
         System.out.println("the test passed");
-
-
 
 
 
