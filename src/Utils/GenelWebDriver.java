@@ -1,8 +1,6 @@
 package Utils;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -36,7 +34,6 @@ public class GenelWebDriver {
 
         driver.get("https://www.trendyol.com\n");
     }
-
 
 
     @AfterClass

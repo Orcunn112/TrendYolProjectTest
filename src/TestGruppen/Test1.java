@@ -11,7 +11,6 @@ import org.testng.asserts.SoftAssert;
 
 public class Test1 extends GenelWebDriver {
 
-
     @Test(priority = 1)
     void test1() {
 
@@ -35,7 +34,6 @@ public class Test1 extends GenelWebDriver {
 
         }
         System.out.println("the test passed");
-
 
 
 
