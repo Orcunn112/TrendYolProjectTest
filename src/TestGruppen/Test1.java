@@ -11,7 +11,6 @@ import org.testng.asserts.SoftAssert;
 
 public class Test1 extends GenelWebDriver {
 
-
     @Test(priority = 1)
     void test1() {
 
@@ -22,7 +21,6 @@ public class Test1 extends GenelWebDriver {
         elements.clickcokieaccept.click();
 
         System.out.println("sayısı="+elements.counttheelements.size());
-
 
         actions.moveToElement(elements.Allimagines).build().perform();
 
@@ -36,9 +34,6 @@ public class Test1 extends GenelWebDriver {
 
         }
         System.out.println("the test passed");
-
-
-
 
 
 
